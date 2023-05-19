@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "titulo": "Ecommerce Donna Modelli",
+        "git": "https://github.com/Isaias-Barbosa/Ecommerce.github.io",
+        "demo": "https://isaias-barbosa.github.io/Ecommerce.github.io/"
+         
+    },
+    {
+        "id": 2,
+        "titulo": "Alura Books",
+        "git": "https://github.com/Isaias-Barbosa/alurabooks",
+        "demo": "https://isaias-barbosa.github.io/alurabooks/"
+    },
+    {
+        "id": 3,
+        "titulo": "Nutrição em Foco",
+        "git": "https://github.com/Isaias-Barbosa/NutricaoEmFoco",
+        "demo": "https://nutricao-em-foco.vercel.app"
+    },
+    {
+        "id": 4,
+        "titulo": "Organo",
+        "git": "https://github.com/Isaias-Barbosa/organo",
+        "demo": "https://organo-gm18-pwviekm94-isaias-barbosa.vercel.app"
+    }
+]
