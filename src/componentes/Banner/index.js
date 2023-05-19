@@ -11,7 +11,7 @@ export default function Banner() {
                     Olá, Mundo!
                 </h1>
                 <p className={styles.paragrafo}>
-                    Boas vindas ao meu espaço pessoal! Eu sou Isaias Barbosa, Analista e Desenvolvedor de Sistemas.)
+                    Boas vindas ao meu espaço pessoal! Eu sou Isaias Barbosa, Analista e Desenvolvedor de Sistemas. :)
                 </p>
             </div>
         </div>
