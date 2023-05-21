@@ -18,7 +18,7 @@ export default function SobreMim() {
 
       <p className={styles.paragrafo}>
         <span>Me chamo Isaias Barbosa</span>, e eu comecei a entrar no mundo da programação em meados de 2016 quando fiz o curso técnico de informática pela ETB-Brasilia. 
-        No momento em que me formei acabei me distanciando um pouco dessa área até 2020, quando comecei a faculdade de Analie e Desenvolvimento de Sistemas. E desde então eu me interesse mais e mais por esse universo da TI.
+        No momento em que me formei acabei me distanciando um pouco dessa área até 2020, quando comecei a faculdade de <span>Analise e Desenvolvimento de Sistemas.</span> E desde então eu me interesse mais e mais por esse universo da TI.
       </p>
       <p className={styles.paragrafo}>
       Atualmente eu estou focado em estudar Front-End, mas possuo alguns conhecimentos em Back-End como Java e PHP, pois futuramente eu planejo me tornar um dev FullStaks

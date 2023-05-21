@@ -3,10 +3,11 @@ import styles from './Post.module.css'
 import BotaoDemo from 'componentes/BotaoDemo';
 
 
-export default function PostCard({ post }) {
+export default function PostCard({ post, index}) {
     return (
         <>
-            <section className={styles.container}>
+            <section className={styles.container}
+            > 
                 <div className={styles.principal}>
                     <div className={styles.descricao}>
                         <h2 >{post.titulo}</h2>
