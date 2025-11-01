@@ -32,5 +32,17 @@
         "titulo": "Nutrição em Foco",
         "git": "https://github.com/Isaias-Barbosa/NutricaoEmFoco",
         "demo": "https://nutricao-em-foco.vercel.app"
+    },
+    {
+        "id": 6,
+        "titulo": "Clinica de Ondotologia",
+        "git": "https://github.com/Isaias-Barbosa/ondotologia",
+        "demo": "https://ondotologia.vercel.app/"
+    },
+    {
+        "id": 7,
+        "titulo": "E-Commerce LuxosNav",
+        "git": "https://github.com/Isaias-Barbosa/luxosnav",
+        "demo": "https://luxosnav.vercel.app/"
     }
 ]
