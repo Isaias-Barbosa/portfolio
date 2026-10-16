@@ -1,119 +1,165 @@
-.banner {
-    background-image: url(/src/assets/banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    max-width: 100%;
-    padding: 3rem 7.5rem 6.25rem;
-    background-color: var(--azul-escuro);
-    color: var(--branco); 
-
-    
+.banner  {
+    max-width:1200px;
+    margin:auto;
+    padding:80px 32px 64px;
+    display:grid;
+    grid-template-columns:1.4fr 1fr;
+    gap:72px;
+    align-items:center;
+    color:var(--azul-escuro)
 }
 
-.apresentacao{
-    align-items: center;
-    text-align: center;
+
+.eyebrow  {
+    font-size:11px;
+    font-weight:700;
+    letter-spacing:2px;
+    color:#496475;
+    margin-bottom:26px
 }
 
-.titulo {
-    font-family: var(--fonte-secundaria);
-    font-size: 4rem;
-    margin-top: 5.875rem;
-    margin-bottom: 3rem;
-    text-align: center;
-  
+
+.conteudo h1  {
+    font-size:clamp(40px,5vw,66px);
+    line-height:1.12;
+    letter-spacing:-3px;
+    font-weight:650;
+    padding:0;
+    text-align:left;
+    margin:0 0 24px
 }
 
-.paragrafo {
-    font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
-    line-height: 2rem;
-    margin-bottom: 2rem;
-    text-align: center;
+
+.conteudo em  {
+    font-style:normal;
+    color:#197064
 }
 
-.imagens {
-    position: relative;
-    height: 506px;
+
+.descricao  {
+    font-size:17px;
+    line-height:1.8;
+    color:#566570;
+    max-width:520px
 }
 
-.imagens > .minhaFoto {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 18vw;
-    height: 22vw;
-    border-radius: 50%;
+
+.acoes  {
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:24px;
+    margin-top:30px;
+    font-size:13px;
+    font-weight:650
 }
 
-.imagens > .circuloColorido {
-    position: absolute;
-    right: 7vw;
-    bottom: 2.2vw;
-    width: 25vw;
+
+.primario  {
+    display:flex;
+    gap:28px;
+    background:var(--azul-escuro);
+    color:white;
+    padding:17px 22px;
+    border-radius:6px
 }
 
-@media (max-width: 1100px) {    
+
+.primario:hover  {
+    background:#197064
+}
+
+.secundario:hover  {
+    color:#197064
+}
+
+
+.nota  {
+    font-size:11px;
+    color:#657780;
+    margin-top:30px
+}
+
+
+.retrato  {
+    position:relative;
+    padding-bottom:20px
+}
+
+
+.retrato>img  {
+    width:100%;
+    height:370px;
+    object-fit:cover;
+    object-position:center 35%;
+    border-radius:100px 8px 8px 8px;
+    background:#dce8e1
+}
+
+
+.legenda  {
+    position:absolute;
+    bottom:0;
+    left:-24px;
+    right:24px;
+    display:flex;
+    gap:15px;
+    align-items:center;
+    padding:20px;
+    background:white;
+    box-shadow:0 10px 35px #1833290c;
+    border:1px solid #e5ebe7;
+    border-radius:6px;
+    font-size:13px;
+    font-weight:650
+}
+
+
+.legenda>span  {
+    color:#197064;
+    background:#edf5ef;
+    padding:10px;
+    font-size:18px
+}
+
+.legenda small  {
+    display:block;
+    margin-top:6px;
+    color:#718079;
+    font-size:11px;
+    font-weight:400
+}
+
+
+@media(max-width:760px) {
     .banner {
-        padding: 6.5rem 1.5rem;
-    }
-
-    .titulo {
-        margin-top: 0;
-        margin-bottom: 1.5rem;
-    }
-
-    .paragrafo {
-        margin-bottom: 1.5rem;
-    }
-
-    .imagens {
-        height: 338px;
-    }
-
-    .imagens > .minhaFoto {
-        width: 25vw;
-    }
-
-    .imagens > .circuloColorido {
-        right: 10vw;
-        width: 35vw;
-    }
+    grid-template-columns:1fr;
+    padding:48px 22px;
+    gap:40px
 }
 
-@media (max-width: 744px) {
-    .banner {
-        padding: 5rem 2rem;
-        
-    }
-
-    .titulo {
-        margin-bottom: 2rem;
-    }
-
-    .paragrafo {
-        margin-bottom: 2rem;
-    }
-
-    .imagens {
-        height: 307px;
-    }
-
-    .imagens > .minhaFoto, .imagens > .circuloColorido {
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-    }
-
-    .imagens > .minhaFoto {
-        width: 170px;
-        transform: translate(5rem, 0px);
-    }
-
-    .imagens > .circuloColorido {
-        width: 240px;
-        transform: translate(-1.5rem, 0px);
-    }
+.conteudo h1 {
+    letter-spacing:-1.8px
 }
 
+.retrato {
+    max-width:400px;
+    width:100%;
+    justify-self:center
+}
+
+.retrato>img {
+    height:310px
+}
+
+.legenda {
+    left:12px;
+    right:12px
+}
+
+.acoes {
+    gap:20px
+}
+
+
+}
