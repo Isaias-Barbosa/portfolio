@@ -4,22 +4,18 @@
         "titulo": "Meal Planner - App de Planejamento de Refeições",
         "git": "https://github.com/Isaias-Barbosa/Gerenciamento",
         "demo": "https://meal-planner-bgsh.onrender.com"
-       
-         
     },
     {
         "id": 2,
         "titulo": "Ecommerce Donna Modelli",
         "git": "https://github.com/Isaias-Barbosa/Ecommerce.github.io",
         "demo": "https://isaias-barbosa.github.io/Ecommerce.github.io/"
-       
     },
     {
-         "id": 3,
+        "id": 3,
         "titulo": "Alura Books",
         "git": "https://github.com/Isaias-Barbosa/alurabooks",
         "demo": "https://isaias-barbosa.github.io/alurabooks/"
-       
     },
     {
         "id": 4,
@@ -44,5 +40,13 @@
         "titulo": "E-Commerce LuxosNav",
         "git": "https://github.com/Isaias-Barbosa/luxosnav",
         "demo": "https://luxosnav.vercel.app/"
+    },
+    {
+        "id": 8,
+        "titulo": "Fluência",
+        "descricao": "Guia de aprendizado de inglês, do básico ao avançado, com métodos, recursos e cronograma de estudos.",
+        "git": "https://github.com/Isaias-Barbosa/FluenciaEmIngles",
+        "demo": "https://fluencia-em-ingles.vercel.app/",
+        "capa": "/assets/posts/8/capa.svg"
     }
 ]
